@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app uses your location to personalize your app experience.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app uses your location </string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Fonts/Playfair_Display/static/PlayfairDisplay-Bold.tff</string>
+		<string>PlayfairDisplay-SemiBold.tff</string>
+		<string>PlayfairDisplay.tff</string>
+		<string>PlayfairDisplay-Regular.tff</string>
+	</array>
+</dict>
+</plist>

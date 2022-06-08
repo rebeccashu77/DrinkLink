@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D463E3728032A7900D204E0 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D463E3628032A7800D204E0 /* RatingView.swift */; };
+		1D463E3828032A7900D204E0 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D463E3628032A7800D204E0 /* RatingView.swift */; };
+		1D463E3F2803566700D204E0 /* AddFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D463E3E2803566700D204E0 /* AddFriends.swift */; };
+		1D463E402803566700D204E0 /* AddFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D463E3E2803566700D204E0 /* AddFriends.swift */; };
+		1D7F486F27F3A28F0073D400 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7F486E27F3A28F0073D400 /* Drink.swift */; };
+		1D7F487027F3A28F0073D400 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7F486E27F3A28F0073D400 /* Drink.swift */; };
+		1DA21CC027E94BC70044CC72 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA21CBF27E94BC70044CC72 /* Feed.swift */; };
+		1DA21CC127E94BC80044CC72 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA21CBF27E94BC70044CC72 /* Feed.swift */; };
+		1DA21CC327E94BD20044CC72 /* FeedVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA21CC227E94BD20044CC72 /* FeedVM.swift */; };
+		1DA21CC427E94BD20044CC72 /* FeedVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA21CC227E94BD20044CC72 /* FeedVM.swift */; };
+		1DC5FD372805117200C5BFB4 /* FriendProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC5FD362805117200C5BFB4 /* FriendProfile.swift */; };
+		1DC5FD382805117200C5BFB4 /* FriendProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC5FD362805117200C5BFB4 /* FriendProfile.swift */; };
+		1DC5FD3A2805124700C5BFB4 /* FriendProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC5FD392805124700C5BFB4 /* FriendProfileVM.swift */; };
+		1DC5FD3B2805124700C5BFB4 /* FriendProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC5FD392805124700C5BFB4 /* FriendProfileVM.swift */; };
+		451D20F427E3E001004BECEA /* DrinkLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451D20E427E3DFFF004BECEA /* DrinkLinkApp.swift */; };
+		451D20F527E3E001004BECEA /* DrinkLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451D20E427E3DFFF004BECEA /* DrinkLinkApp.swift */; };
+		451D20F627E3E001004BECEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451D20E527E3DFFF004BECEA /* ContentView.swift */; };
+		451D20F727E3E001004BECEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451D20E527E3DFFF004BECEA /* ContentView.swift */; };
+		451D20F827E3E001004BECEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451D20E627E3E001004BECEA /* Assets.xcassets */; };
+		451D20F927E3E001004BECEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451D20E627E3E001004BECEA /* Assets.xcassets */; };
+		451D210327E3E053004BECEA /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451D210227E3E053004BECEA /* Profile.swift */; };
+		451D210427E3E053004BECEA /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451D210227E3E053004BECEA /* Profile.swift */; };
+		451D210627E3E42B004BECEA /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451D210527E3E42B004BECEA /* Login.swift */; };
+		451D210727E3E42B004BECEA /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451D210527E3E42B004BECEA /* Login.swift */; };
+		451D210A27E3E4AA004BECEA /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451D210927E3E4AA004BECEA /* DataStore.swift */; };
+		451D210B27E3E4AA004BECEA /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451D210927E3E4AA004BECEA /* DataStore.swift */; };
+		451D210D27E3E514004BECEA /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451D210C27E3E514004BECEA /* LoginVM.swift */; };
+		451D210E27E3E514004BECEA /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451D210C27E3E514004BECEA /* LoginVM.swift */; };
+		451D212227E41719004BECEA /* PlayfairDisplay-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211127E41719004BECEA /* PlayfairDisplay-VariableFont_wght.ttf */; };
+		451D212327E41719004BECEA /* PlayfairDisplay-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211127E41719004BECEA /* PlayfairDisplay-VariableFont_wght.ttf */; };
+		451D212427E41719004BECEA /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211327E41719004BECEA /* PlayfairDisplay-Bold.ttf */; };
+		451D212527E41719004BECEA /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211327E41719004BECEA /* PlayfairDisplay-Bold.ttf */; };
+		451D212627E41719004BECEA /* PlayfairDisplay-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211427E41719004BECEA /* PlayfairDisplay-SemiBold.ttf */; };
+		451D212727E41719004BECEA /* PlayfairDisplay-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211427E41719004BECEA /* PlayfairDisplay-SemiBold.ttf */; };
+		451D212827E41719004BECEA /* PlayfairDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211527E41719004BECEA /* PlayfairDisplay-Medium.ttf */; };
+		451D212927E41719004BECEA /* PlayfairDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211527E41719004BECEA /* PlayfairDisplay-Medium.ttf */; };
+		451D212A27E41719004BECEA /* PlayfairDisplay-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211627E41719004BECEA /* PlayfairDisplay-BoldItalic.ttf */; };
+		451D212B27E41719004BECEA /* PlayfairDisplay-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211627E41719004BECEA /* PlayfairDisplay-BoldItalic.ttf */; };
+		451D212C27E41719004BECEA /* PlayfairDisplay-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211727E41719004BECEA /* PlayfairDisplay-ExtraBoldItalic.ttf */; };
+		451D212D27E41719004BECEA /* PlayfairDisplay-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211727E41719004BECEA /* PlayfairDisplay-ExtraBoldItalic.ttf */; };
+		451D212E27E41719004BECEA /* PlayfairDisplay-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211827E41719004BECEA /* PlayfairDisplay-Italic.ttf */; };
+		451D212F27E41719004BECEA /* PlayfairDisplay-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211827E41719004BECEA /* PlayfairDisplay-Italic.ttf */; };
+		451D213027E41719004BECEA /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211927E41719004BECEA /* PlayfairDisplay-Regular.ttf */; };
+		451D213127E41719004BECEA /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211927E41719004BECEA /* PlayfairDisplay-Regular.ttf */; };
+		451D213227E41719004BECEA /* PlayfairDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211A27E41719004BECEA /* PlayfairDisplay-Black.ttf */; };
+		451D213327E41719004BECEA /* PlayfairDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211A27E41719004BECEA /* PlayfairDisplay-Black.ttf */; };
+		451D213427E41719004BECEA /* PlayfairDisplay-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211B27E41719004BECEA /* PlayfairDisplay-SemiBoldItalic.ttf */; };
+		451D213527E41719004BECEA /* PlayfairDisplay-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211B27E41719004BECEA /* PlayfairDisplay-SemiBoldItalic.ttf */; };
+		451D213627E41719004BECEA /* PlayfairDisplay-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211C27E41719004BECEA /* PlayfairDisplay-MediumItalic.ttf */; };
+		451D213727E41719004BECEA /* PlayfairDisplay-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211C27E41719004BECEA /* PlayfairDisplay-MediumItalic.ttf */; };
+		451D213827E41719004BECEA /* PlayfairDisplay-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211D27E41719004BECEA /* PlayfairDisplay-BlackItalic.ttf */; };
+		451D213927E41719004BECEA /* PlayfairDisplay-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211D27E41719004BECEA /* PlayfairDisplay-BlackItalic.ttf */; };
+		451D213A27E41719004BECEA /* PlayfairDisplay-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211E27E41719004BECEA /* PlayfairDisplay-ExtraBold.ttf */; };
+		451D213B27E41719004BECEA /* PlayfairDisplay-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D211E27E41719004BECEA /* PlayfairDisplay-ExtraBold.ttf */; };
+		451D213C27E41719004BECEA /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 451D211F27E41719004BECEA /* OFL.txt */; };
+		451D213D27E41719004BECEA /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 451D211F27E41719004BECEA /* OFL.txt */; };
+		451D213E27E41719004BECEA /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 451D212027E41719004BECEA /* README.txt */; };
+		451D213F27E41719004BECEA /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 451D212027E41719004BECEA /* README.txt */; };
+		451D214027E41719004BECEA /* PlayfairDisplay-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D212127E41719004BECEA /* PlayfairDisplay-Italic-VariableFont_wght.ttf */; };
+		451D214127E41719004BECEA /* PlayfairDisplay-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451D212127E41719004BECEA /* PlayfairDisplay-Italic-VariableFont_wght.ttf */; };
+		451D214427E417CC004BECEA /* ProfileDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451D214327E417CC004BECEA /* ProfileDetail.swift */; };
+		451D214527E417CC004BECEA /* ProfileDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451D214327E417CC004BECEA /* ProfileDetail.swift */; };
+		451D214727E417E1004BECEA /* ProfileDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451D214627E417E1004BECEA /* ProfileDetailVM.swift */; };
+		451D214827E417E1004BECEA /* ProfileDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451D214627E417E1004BECEA /* ProfileDetailVM.swift */; };
+		4576676A2801233C001B3B44 /* CreateProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457667692801233C001B3B44 /* CreateProfile.swift */; };
+		4576676B2801233C001B3B44 /* CreateProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457667692801233C001B3B44 /* CreateProfile.swift */; };
+		4576676D28013CA4001B3B44 /* CreateProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4576676C28013CA4001B3B44 /* CreateProfileVM.swift */; };
+		4576676E28013CA4001B3B44 /* CreateProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4576676C28013CA4001B3B44 /* CreateProfileVM.swift */; };
+		45B576EA27ED1F42006F2A2B /* IdentityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B576E927ED1F42006F2A2B /* IdentityService.swift */; };
+		45B576EB27ED1F42006F2A2B /* IdentityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B576E927ED1F42006F2A2B /* IdentityService.swift */; };
+		A6C7D82927E624B500B8C7EB /* TabContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D82827E624B500B8C7EB /* TabContainer.swift */; };
+		A6C7D82A27E624B500B8C7EB /* TabContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D82827E624B500B8C7EB /* TabContainer.swift */; };
+		A6C7D83E27E637F400B8C7EB /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D83D27E637F400B8C7EB /* APIClient.swift */; };
+		A6C7D83F27E637F400B8C7EB /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D83D27E637F400B8C7EB /* APIClient.swift */; };
+		A6C7D84127E6380600B8C7EB /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D84027E6380600B8C7EB /* APIError.swift */; };
+		A6C7D84227E6380600B8C7EB /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D84027E6380600B8C7EB /* APIError.swift */; };
+		A6C7D84527E6387D00B8C7EB /* YelpEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D84427E6387D00B8C7EB /* YelpEndpoint.swift */; };
+		A6C7D84627E6387D00B8C7EB /* YelpEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D84427E6387D00B8C7EB /* YelpEndpoint.swift */; };
+		A6C7D84827E638F800B8C7EB /* RestAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D84727E638F800B8C7EB /* RestAPIClient.swift */; };
+		A6C7D84927E638F800B8C7EB /* RestAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D84727E638F800B8C7EB /* RestAPIClient.swift */; };
+		A6C7D84B27E63AF000B8C7EB /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D84A27E63AF000B8C7EB /* Business.swift */; };
+		A6C7D84C27E63AF000B8C7EB /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D84A27E63AF000B8C7EB /* Business.swift */; };
+		A6C7D84E27E6422E00B8C7EB /* YelpAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D84D27E6422E00B8C7EB /* YelpAPIService.swift */; };
+		A6C7D84F27E6422E00B8C7EB /* YelpAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D84D27E6422E00B8C7EB /* YelpAPIService.swift */; };
+		A6C7D85127E643C400B8C7EB /* BusinessSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D85027E643C400B8C7EB /* BusinessSearchResponse.swift */; };
+		A6C7D85227E643C400B8C7EB /* BusinessSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D85027E643C400B8C7EB /* BusinessSearchResponse.swift */; };
+		A6C7D85427E6460B00B8C7EB /* BusinessList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D85327E6460B00B8C7EB /* BusinessList.swift */; };
+		A6C7D85527E6460B00B8C7EB /* BusinessList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D85327E6460B00B8C7EB /* BusinessList.swift */; };
+		A6C7D85727E6461500B8C7EB /* BusinessListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D85627E6461500B8C7EB /* BusinessListVM.swift */; };
+		A6C7D85827E6461500B8C7EB /* BusinessListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D85627E6461500B8C7EB /* BusinessListVM.swift */; };
+		A6C7D85A27E6477A00B8C7EB /* BusinessDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D85927E6477A00B8C7EB /* BusinessDetail.swift */; };
+		A6C7D85B27E6477A00B8C7EB /* BusinessDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D85927E6477A00B8C7EB /* BusinessDetail.swift */; };
+		A6C7D85E27E6478B00B8C7EB /* BusinessDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D85D27E6478B00B8C7EB /* BusinessDetailVM.swift */; };
+		A6C7D85F27E6478B00B8C7EB /* BusinessDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D85D27E6478B00B8C7EB /* BusinessDetailVM.swift */; };
+		A6C7D86127E7835500B8C7EB /* AddForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D86027E7835500B8C7EB /* AddForm.swift */; };
+		A6C7D86227E7835500B8C7EB /* AddForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D86027E7835500B8C7EB /* AddForm.swift */; };
+		A6C7D86727F0BC5700B8C7EB /* LocationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D86627F0BC5700B8C7EB /* LocationVM.swift */; };
+		A6C7D86827F0BC5700B8C7EB /* LocationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7D86627F0BC5700B8C7EB /* LocationVM.swift */; };
+		A6DDF13D28039D9A001C8C98 /* FilterForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DDF13C28039D9A001C8C98 /* FilterForm.swift */; };
+		A6DDF13E28039D9A001C8C98 /* FilterForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DDF13C28039D9A001C8C98 /* FilterForm.swift */; };
+		A6DDF14128039E4C001C8C98 /* FilterBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DDF14028039E4C001C8C98 /* FilterBusiness.swift */; };
+		A6DDF14228039E4C001C8C98 /* FilterBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DDF14028039E4C001C8C98 /* FilterBusiness.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D463E3628032A7800D204E0 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		1D463E3E2803566700D204E0 /* AddFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriends.swift; sourceTree = "<group>"; };
+		1D7F486E27F3A28F0073D400 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		1DA21CBF27E94BC70044CC72 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		1DA21CC227E94BD20044CC72 /* FeedVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVM.swift; sourceTree = "<group>"; };
+		1DC5FD362805117200C5BFB4 /* FriendProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendProfile.swift; sourceTree = "<group>"; };
+		1DC5FD392805124700C5BFB4 /* FriendProfileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendProfileVM.swift; sourceTree = "<group>"; };
+		451D20E427E3DFFF004BECEA /* DrinkLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkLinkApp.swift; sourceTree = "<group>"; };
+		451D20E527E3DFFF004BECEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		451D20E627E3E001004BECEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		451D20EB27E3E001004BECEA /* DrinkLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		451D20F127E3E001004BECEA /* DrinkLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		451D20F327E3E001004BECEA /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		451D210227E3E053004BECEA /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		451D210527E3E42B004BECEA /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		451D210927E3E4AA004BECEA /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		451D210C27E3E514004BECEA /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		451D211127E41719004BECEA /* PlayfairDisplay-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		451D211327E41719004BECEA /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		451D211427E41719004BECEA /* PlayfairDisplay-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-SemiBold.ttf"; sourceTree = "<group>"; };
+		451D211527E41719004BECEA /* PlayfairDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		451D211627E41719004BECEA /* PlayfairDisplay-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-BoldItalic.ttf"; sourceTree = "<group>"; };
+		451D211727E41719004BECEA /* PlayfairDisplay-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		451D211827E41719004BECEA /* PlayfairDisplay-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Italic.ttf"; sourceTree = "<group>"; };
+		451D211927E41719004BECEA /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		451D211A27E41719004BECEA /* PlayfairDisplay-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Black.ttf"; sourceTree = "<group>"; };
+		451D211B27E41719004BECEA /* PlayfairDisplay-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		451D211C27E41719004BECEA /* PlayfairDisplay-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-MediumItalic.ttf"; sourceTree = "<group>"; };
+		451D211D27E41719004BECEA /* PlayfairDisplay-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-BlackItalic.ttf"; sourceTree = "<group>"; };
+		451D211E27E41719004BECEA /* PlayfairDisplay-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-ExtraBold.ttf"; sourceTree = "<group>"; };
+		451D211F27E41719004BECEA /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		451D212027E41719004BECEA /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		451D212127E41719004BECEA /* PlayfairDisplay-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		451D214227E4172E004BECEA /* DrinkLink--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DrinkLink--iOS--Info.plist"; sourceTree = "<group>"; };
+		451D214327E417CC004BECEA /* ProfileDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetail.swift; sourceTree = "<group>"; };
+		451D214627E417E1004BECEA /* ProfileDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailVM.swift; sourceTree = "<group>"; };
+		457667692801233C001B3B44 /* CreateProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfile.swift; sourceTree = "<group>"; };
+		4576676C28013CA4001B3B44 /* CreateProfileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileVM.swift; sourceTree = "<group>"; };
+		45B576E927ED1F42006F2A2B /* IdentityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityService.swift; sourceTree = "<group>"; };
+		A6C7D82827E624B500B8C7EB /* TabContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContainer.swift; sourceTree = "<group>"; };
+		A6C7D83D27E637F400B8C7EB /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		A6C7D84027E6380600B8C7EB /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		A6C7D84427E6387D00B8C7EB /* YelpEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpEndpoint.swift; sourceTree = "<group>"; };
+		A6C7D84727E638F800B8C7EB /* RestAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPIClient.swift; sourceTree = "<group>"; };
+		A6C7D84A27E63AF000B8C7EB /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		A6C7D84D27E6422E00B8C7EB /* YelpAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpAPIService.swift; sourceTree = "<group>"; };
+		A6C7D85027E643C400B8C7EB /* BusinessSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSearchResponse.swift; sourceTree = "<group>"; };
+		A6C7D85327E6460B00B8C7EB /* BusinessList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessList.swift; sourceTree = "<group>"; };
+		A6C7D85627E6461500B8C7EB /* BusinessListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessListVM.swift; sourceTree = "<group>"; };
+		A6C7D85927E6477A00B8C7EB /* BusinessDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetail.swift; sourceTree = "<group>"; };
+		A6C7D85D27E6478B00B8C7EB /* BusinessDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailVM.swift; sourceTree = "<group>"; };
+		A6C7D86027E7835500B8C7EB /* AddForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddForm.swift; sourceTree = "<group>"; };
+		A6C7D86627F0BC5700B8C7EB /* LocationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVM.swift; sourceTree = "<group>"; };
+		A6DDF13C28039D9A001C8C98 /* FilterForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterForm.swift; sourceTree = "<group>"; };
+		A6DDF14028039E4C001C8C98 /* FilterBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterBusiness.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		451D20E827E3E001004BECEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451D20EE27E3E001004BECEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D463E3C2803522900D204E0 /* Login & Signup */ = {
+			isa = PBXGroup;
+			children = (
+				451D210527E3E42B004BECEA /* Login.swift */,
+				451D210C27E3E514004BECEA /* LoginVM.swift */,
+				457667692801233C001B3B44 /* CreateProfile.swift */,
+				4576676C28013CA4001B3B44 /* CreateProfileVM.swift */,
+			);
+			path = "Login & Signup";
+			sourceTree = "<group>";
+		};
+		1D463E3D2803525F00D204E0 /* ActivityFeed */ = {
+			isa = PBXGroup;
+			children = (
+				1DA21CBF27E94BC70044CC72 /* Feed.swift */,
+				1DA21CC227E94BD20044CC72 /* FeedVM.swift */,
+				1D463E3E2803566700D204E0 /* AddFriends.swift */,
+				1DC5FD362805117200C5BFB4 /* FriendProfile.swift */,
+				1DC5FD392805124700C5BFB4 /* FriendProfileVM.swift */,
+			);
+			path = ActivityFeed;
+			sourceTree = "<group>";
+		};
+		451D20DE27E3DFFF004BECEA = {
+			isa = PBXGroup;
+			children = (
+				A6C7D82727E6248200B8C7EB /* Models */,
+				A6C7D82627E6245000B8C7EB /* Features */,
+				451D214227E4172E004BECEA /* DrinkLink--iOS--Info.plist */,
+				451D210F27E41719004BECEA /* Fonts */,
+				451D210827E3E49E004BECEA /* Services */,
+				451D20E327E3DFFF004BECEA /* Shared */,
+				451D20F227E3E001004BECEA /* macOS */,
+				451D20EC27E3E001004BECEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		451D20E327E3DFFF004BECEA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				451D20E427E3DFFF004BECEA /* DrinkLinkApp.swift */,
+				451D20E527E3DFFF004BECEA /* ContentView.swift */,
+				451D20E627E3E001004BECEA /* Assets.xcassets */,
+				A6C7D82827E624B500B8C7EB /* TabContainer.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		451D20EC27E3E001004BECEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				451D20EB27E3E001004BECEA /* DrinkLink.app */,
+				451D20F127E3E001004BECEA /* DrinkLink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		451D20F227E3E001004BECEA /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				451D20F327E3E001004BECEA /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		451D210827E3E49E004BECEA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A6C7D83B27E6375500B8C7EB /* API */,
+				451D210927E3E4AA004BECEA /* DataStore.swift */,
+				45B576E927ED1F42006F2A2B /* IdentityService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		451D210F27E41719004BECEA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				451D211027E41719004BECEA /* Playfair_Display */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		451D211027E41719004BECEA /* Playfair_Display */ = {
+			isa = PBXGroup;
+			children = (
+				451D211127E41719004BECEA /* PlayfairDisplay-VariableFont_wght.ttf */,
+				451D211227E41719004BECEA /* static */,
+				451D211F27E41719004BECEA /* OFL.txt */,
+				451D212027E41719004BECEA /* README.txt */,
+				451D212127E41719004BECEA /* PlayfairDisplay-Italic-VariableFont_wght.ttf */,
+			);
+			path = Playfair_Display;
+			sourceTree = "<group>";
+		};
+		451D211227E41719004BECEA /* static */ = {
+			isa = PBXGroup;
+			children = (
+				451D211327E41719004BECEA /* PlayfairDisplay-Bold.ttf */,
+				451D211427E41719004BECEA /* PlayfairDisplay-SemiBold.ttf */,
+				451D211527E41719004BECEA /* PlayfairDisplay-Medium.ttf */,
+				451D211627E41719004BECEA /* PlayfairDisplay-BoldItalic.ttf */,
+				451D211727E41719004BECEA /* PlayfairDisplay-ExtraBoldItalic.ttf */,
+				451D211827E41719004BECEA /* PlayfairDisplay-Italic.ttf */,
+				451D211927E41719004BECEA /* PlayfairDisplay-Regular.ttf */,
+				451D211A27E41719004BECEA /* PlayfairDisplay-Black.ttf */,
+				451D211B27E41719004BECEA /* PlayfairDisplay-SemiBoldItalic.ttf */,
+				451D211C27E41719004BECEA /* PlayfairDisplay-MediumItalic.ttf */,
+				451D211D27E41719004BECEA /* PlayfairDisplay-BlackItalic.ttf */,
+				451D211E27E41719004BECEA /* PlayfairDisplay-ExtraBold.ttf */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
+		A6C7D82627E6245000B8C7EB /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				1D463E3D2803525F00D204E0 /* ActivityFeed */,
+				1D463E3C2803522900D204E0 /* Login & Signup */,
+				451D214327E417CC004BECEA /* ProfileDetail.swift */,
+				451D214627E417E1004BECEA /* ProfileDetailVM.swift */,
+				A6C7D85327E6460B00B8C7EB /* BusinessList.swift */,
+				A6C7D85627E6461500B8C7EB /* BusinessListVM.swift */,
+				A6C7D85927E6477A00B8C7EB /* BusinessDetail.swift */,
+				A6C7D85D27E6478B00B8C7EB /* BusinessDetailVM.swift */,
+				A6C7D86027E7835500B8C7EB /* AddForm.swift */,
+				1D463E3628032A7800D204E0 /* RatingView.swift */,
+				A6C7D86627F0BC5700B8C7EB /* LocationVM.swift */,
+				A6DDF13C28039D9A001C8C98 /* FilterForm.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A6C7D82727E6248200B8C7EB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				451D210227E3E053004BECEA /* Profile.swift */,
+				A6C7D84A27E63AF000B8C7EB /* Business.swift */,
+				A6C7D85027E643C400B8C7EB /* BusinessSearchResponse.swift */,
+				1D7F486E27F3A28F0073D400 /* Drink.swift */,
+				A6DDF14028039E4C001C8C98 /* FilterBusiness.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A6C7D83B27E6375500B8C7EB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A6C7D84327E6386700B8C7EB /* YelpAPI */,
+				A6C7D83C27E637E300B8C7EB /* APIClient */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A6C7D83C27E637E300B8C7EB /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				A6C7D83D27E637F400B8C7EB /* APIClient.swift */,
+				A6C7D84027E6380600B8C7EB /* APIError.swift */,
+				A6C7D84727E638F800B8C7EB /* RestAPIClient.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		A6C7D84327E6386700B8C7EB /* YelpAPI */ = {
+			isa = PBXGroup;
+			children = (
+				A6C7D84427E6387D00B8C7EB /* YelpEndpoint.swift */,
+				A6C7D84D27E6422E00B8C7EB /* YelpAPIService.swift */,
+			);
+			path = YelpAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		451D20EA27E3E001004BECEA /* DrinkLink (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451D20FC27E3E001004BECEA /* Build configuration list for PBXNativeTarget "DrinkLink (iOS)" */;
+			buildPhases = (
+				451D20E727E3E001004BECEA /* Sources */,
+				451D20E827E3E001004BECEA /* Frameworks */,
+				451D20E927E3E001004BECEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DrinkLink (iOS)";
+			productName = "DrinkLink (iOS)";
+			productReference = 451D20EB27E3E001004BECEA /* DrinkLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		451D20F027E3E001004BECEA /* DrinkLink (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451D20FF27E3E001004BECEA /* Build configuration list for PBXNativeTarget "DrinkLink (macOS)" */;
+			buildPhases = (
+				451D20ED27E3E001004BECEA /* Sources */,
+				451D20EE27E3E001004BECEA /* Frameworks */,
+				451D20EF27E3E001004BECEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DrinkLink (macOS)";
+			productName = "DrinkLink (macOS)";
+			productReference = 451D20F127E3E001004BECEA /* DrinkLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		451D20DF27E3DFFF004BECEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					451D20EA27E3E001004BECEA = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					451D20F027E3E001004BECEA = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 451D20E227E3DFFF004BECEA /* Build configuration list for PBXProject "DrinkLink" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 451D20DE27E3DFFF004BECEA;
+			productRefGroup = 451D20EC27E3E001004BECEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				451D20EA27E3E001004BECEA /* DrinkLink (iOS) */,
+				451D20F027E3E001004BECEA /* DrinkLink (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		451D20E927E3E001004BECEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451D213C27E41719004BECEA /* OFL.txt in Resources */,
+				451D213627E41719004BECEA /* PlayfairDisplay-MediumItalic.ttf in Resources */,
+				451D214027E41719004BECEA /* PlayfairDisplay-Italic-VariableFont_wght.ttf in Resources */,
+				451D212C27E41719004BECEA /* PlayfairDisplay-ExtraBoldItalic.ttf in Resources */,
+				451D212427E41719004BECEA /* PlayfairDisplay-Bold.ttf in Resources */,
+				451D213027E41719004BECEA /* PlayfairDisplay-Regular.ttf in Resources */,
+				451D213427E41719004BECEA /* PlayfairDisplay-SemiBoldItalic.ttf in Resources */,
+				451D213E27E41719004BECEA /* README.txt in Resources */,
+				451D212827E41719004BECEA /* PlayfairDisplay-Medium.ttf in Resources */,
+				451D212227E41719004BECEA /* PlayfairDisplay-VariableFont_wght.ttf in Resources */,
+				451D213827E41719004BECEA /* PlayfairDisplay-BlackItalic.ttf in Resources */,
+				451D212627E41719004BECEA /* PlayfairDisplay-SemiBold.ttf in Resources */,
+				451D212A27E41719004BECEA /* PlayfairDisplay-BoldItalic.ttf in Resources */,
+				451D213227E41719004BECEA /* PlayfairDisplay-Black.ttf in Resources */,
+				451D20F827E3E001004BECEA /* Assets.xcassets in Resources */,
+				451D212E27E41719004BECEA /* PlayfairDisplay-Italic.ttf in Resources */,
+				451D213A27E41719004BECEA /* PlayfairDisplay-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451D20EF27E3E001004BECEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451D213D27E41719004BECEA /* OFL.txt in Resources */,
+				451D213727E41719004BECEA /* PlayfairDisplay-MediumItalic.ttf in Resources */,
+				451D214127E41719004BECEA /* PlayfairDisplay-Italic-VariableFont_wght.ttf in Resources */,
+				451D212D27E41719004BECEA /* PlayfairDisplay-ExtraBoldItalic.ttf in Resources */,
+				451D212527E41719004BECEA /* PlayfairDisplay-Bold.ttf in Resources */,
+				451D213127E41719004BECEA /* PlayfairDisplay-Regular.ttf in Resources */,
+				451D213527E41719004BECEA /* PlayfairDisplay-SemiBoldItalic.ttf in Resources */,
+				451D213F27E41719004BECEA /* README.txt in Resources */,
+				451D212927E41719004BECEA /* PlayfairDisplay-Medium.ttf in Resources */,
+				451D212327E41719004BECEA /* PlayfairDisplay-VariableFont_wght.ttf in Resources */,
+				451D213927E41719004BECEA /* PlayfairDisplay-BlackItalic.ttf in Resources */,
+				451D212727E41719004BECEA /* PlayfairDisplay-SemiBold.ttf in Resources */,
+				451D212B27E41719004BECEA /* PlayfairDisplay-BoldItalic.ttf in Resources */,
+				451D213327E41719004BECEA /* PlayfairDisplay-Black.ttf in Resources */,
+				451D20F927E3E001004BECEA /* Assets.xcassets in Resources */,
+				451D212F27E41719004BECEA /* PlayfairDisplay-Italic.ttf in Resources */,
+				451D213B27E41719004BECEA /* PlayfairDisplay-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		451D20E727E3E001004BECEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C7D84E27E6422E00B8C7EB /* YelpAPIService.swift in Sources */,
+				A6DDF14128039E4C001C8C98 /* FilterBusiness.swift in Sources */,
+				A6C7D85A27E6477A00B8C7EB /* BusinessDetail.swift in Sources */,
+				4576676D28013CA4001B3B44 /* CreateProfileVM.swift in Sources */,
+				A6C7D82927E624B500B8C7EB /* TabContainer.swift in Sources */,
+				A6C7D83E27E637F400B8C7EB /* APIClient.swift in Sources */,
+				451D20F627E3E001004BECEA /* ContentView.swift in Sources */,
+				1DA21CC327E94BD20044CC72 /* FeedVM.swift in Sources */,
+				A6C7D85127E643C400B8C7EB /* BusinessSearchResponse.swift in Sources */,
+				A6C7D85427E6460B00B8C7EB /* BusinessList.swift in Sources */,
+				451D210327E3E053004BECEA /* Profile.swift in Sources */,
+				451D210D27E3E514004BECEA /* LoginVM.swift in Sources */,
+				1D463E3F2803566700D204E0 /* AddFriends.swift in Sources */,
+				451D20F427E3E001004BECEA /* DrinkLinkApp.swift in Sources */,
+				1D463E3728032A7900D204E0 /* RatingView.swift in Sources */,
+				451D214427E417CC004BECEA /* ProfileDetail.swift in Sources */,
+				A6C7D85E27E6478B00B8C7EB /* BusinessDetailVM.swift in Sources */,
+				A6C7D84527E6387D00B8C7EB /* YelpEndpoint.swift in Sources */,
+				A6C7D84127E6380600B8C7EB /* APIError.swift in Sources */,
+				A6C7D86727F0BC5700B8C7EB /* LocationVM.swift in Sources */,
+				451D210A27E3E4AA004BECEA /* DataStore.swift in Sources */,
+				A6DDF13D28039D9A001C8C98 /* FilterForm.swift in Sources */,
+				1DA21CC027E94BC70044CC72 /* Feed.swift in Sources */,
+				4576676A2801233C001B3B44 /* CreateProfile.swift in Sources */,
+				A6C7D84827E638F800B8C7EB /* RestAPIClient.swift in Sources */,
+				A6C7D84B27E63AF000B8C7EB /* Business.swift in Sources */,
+				1D7F486F27F3A28F0073D400 /* Drink.swift in Sources */,
+				A6C7D86127E7835500B8C7EB /* AddForm.swift in Sources */,
+				1DC5FD3A2805124700C5BFB4 /* FriendProfileVM.swift in Sources */,
+				451D210627E3E42B004BECEA /* Login.swift in Sources */,
+				1DC5FD372805117200C5BFB4 /* FriendProfile.swift in Sources */,
+				45B576EA27ED1F42006F2A2B /* IdentityService.swift in Sources */,
+				A6C7D85727E6461500B8C7EB /* BusinessListVM.swift in Sources */,
+				451D214727E417E1004BECEA /* ProfileDetailVM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451D20ED27E3E001004BECEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C7D84F27E6422E00B8C7EB /* YelpAPIService.swift in Sources */,
+				A6DDF14228039E4C001C8C98 /* FilterBusiness.swift in Sources */,
+				A6C7D85B27E6477A00B8C7EB /* BusinessDetail.swift in Sources */,
+				4576676E28013CA4001B3B44 /* CreateProfileVM.swift in Sources */,
+				A6C7D82A27E624B500B8C7EB /* TabContainer.swift in Sources */,
+				A6C7D83F27E637F400B8C7EB /* APIClient.swift in Sources */,
+				451D20F727E3E001004BECEA /* ContentView.swift in Sources */,
+				1DA21CC427E94BD20044CC72 /* FeedVM.swift in Sources */,
+				A6C7D85227E643C400B8C7EB /* BusinessSearchResponse.swift in Sources */,
+				A6C7D85527E6460B00B8C7EB /* BusinessList.swift in Sources */,
+				451D210427E3E053004BECEA /* Profile.swift in Sources */,
+				451D210E27E3E514004BECEA /* LoginVM.swift in Sources */,
+				1D463E402803566700D204E0 /* AddFriends.swift in Sources */,
+				451D20F527E3E001004BECEA /* DrinkLinkApp.swift in Sources */,
+				1D463E3828032A7900D204E0 /* RatingView.swift in Sources */,
+				451D214527E417CC004BECEA /* ProfileDetail.swift in Sources */,
+				A6C7D85F27E6478B00B8C7EB /* BusinessDetailVM.swift in Sources */,
+				A6C7D84627E6387D00B8C7EB /* YelpEndpoint.swift in Sources */,
+				A6C7D84227E6380600B8C7EB /* APIError.swift in Sources */,
+				A6C7D86827F0BC5700B8C7EB /* LocationVM.swift in Sources */,
+				451D210B27E3E4AA004BECEA /* DataStore.swift in Sources */,
+				A6DDF13E28039D9A001C8C98 /* FilterForm.swift in Sources */,
+				1DA21CC127E94BC80044CC72 /* Feed.swift in Sources */,
+				4576676B2801233C001B3B44 /* CreateProfile.swift in Sources */,
+				A6C7D84927E638F800B8C7EB /* RestAPIClient.swift in Sources */,
+				A6C7D84C27E63AF000B8C7EB /* Business.swift in Sources */,
+				1D7F487027F3A28F0073D400 /* Drink.swift in Sources */,
+				A6C7D86227E7835500B8C7EB /* AddForm.swift in Sources */,
+				1DC5FD3B2805124700C5BFB4 /* FriendProfileVM.swift in Sources */,
+				451D210727E3E42B004BECEA /* Login.swift in Sources */,
+				1DC5FD382805117200C5BFB4 /* FriendProfile.swift in Sources */,
+				45B576EB27ED1F42006F2A2B /* IdentityService.swift in Sources */,
+				A6C7D85827E6461500B8C7EB /* BusinessListVM.swift in Sources */,
+				451D214827E417E1004BECEA /* ProfileDetailVM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		451D20FA27E3E001004BECEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		451D20FB27E3E001004BECEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		451D20FD27E3E001004BECEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6H39GM53CT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DrinkLink--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.yc341.DrinkLink;
+				PRODUCT_NAME = DrinkLink;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		451D20FE27E3E001004BECEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6H39GM53CT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DrinkLink--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.yc341.DrinkLink;
+				PRODUCT_NAME = DrinkLink;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		451D210027E3E001004BECEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6H39GM53CT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.yc341.DrinkLink;
+				PRODUCT_NAME = DrinkLink;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		451D210127E3E001004BECEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6H39GM53CT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.yc341.DrinkLink;
+				PRODUCT_NAME = DrinkLink;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		451D20E227E3DFFF004BECEA /* Build configuration list for PBXProject "DrinkLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451D20FA27E3E001004BECEA /* Debug */,
+				451D20FB27E3E001004BECEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451D20FC27E3E001004BECEA /* Build configuration list for PBXNativeTarget "DrinkLink (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451D20FD27E3E001004BECEA /* Debug */,
+				451D20FE27E3E001004BECEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451D20FF27E3E001004BECEA /* Build configuration list for PBXNativeTarget "DrinkLink (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451D210027E3E001004BECEA /* Debug */,
+				451D210127E3E001004BECEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 451D20DF27E3DFFF004BECEA /* Project object */;
+}
